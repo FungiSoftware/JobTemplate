@@ -51,6 +51,7 @@ def main():
     os.system('cls')
     #print dwg_info
     print "Job Creation Complete\n\t~Brandan Haertel"
+    print "Job Creation Complete\n\t~Brandan Haertel."
     time.sleep(2.5)
 
 if __name__ == '__main__':
