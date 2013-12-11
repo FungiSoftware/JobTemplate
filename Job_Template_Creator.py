@@ -28,7 +28,7 @@ def main():
 
     job_name = raw_input("Job Name: ")
     job_number = raw_input("Job Number: ")
-    drafter_int = raw_input("Initials: ")
+    drafter_int = raw_input("Drafter Initials: ")
 
     folder_name = job_name + " " + job_number + " " + drafter_int.upper() + " " + date_today
     print "\n" + folder_name
@@ -49,7 +49,6 @@ def main():
         #execfile(dwg_info)
 
     os.system('cls')
-    #print dwg_info
     print "Job Creation Complete\n\t~Brandan Haertel."
     time.sleep(2.5)
 
